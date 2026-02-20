@@ -1,4 +1,5 @@
-import '../styling/texts.css';
+import '../styling/top.css';
+import '../styling/middle.css';
 
 export function Name(){
     return <h1 className='companyName'>TSELIOSGAMES</h1>;

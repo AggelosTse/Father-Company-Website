@@ -1,4 +1,4 @@
-import '../styling/carousel.css'
+import '../styling/middle.css'
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
