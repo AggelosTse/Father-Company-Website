@@ -1,38 +1,16 @@
-import './App.css'
+import {Name, CenterText, ScrollText} from './components/texts.jsx';
+import ProjectCarousel from './components/carousel.jsx';
 
 
-function Name(){
-  return(
-    <h1 className='companyName'>TSELIOSGAMES</h1>
-  );
-}
-
-function CenterText(){
-  return(
-    <div>
-    <h2 className='centerText'> ΣΤΟΧΟΣ ΜΑΣ Η ΨΥΧΑΓΩΓΙΑ ΣΑΣ</h2>;
-    <h1 className='centerSubText'>Με πολλα χρονια εμπειριας στον χωρο.</h1>;
+function App() {
+  return (
+    <div className="main-layout">
+      <Name/> 
+      <CenterText/> 
+      <ScrollText/>
+      <ProjectCarousel/>
     </div>
   );
 }
 
-function ScrollText(){
-  return(
-    <h2 className='scrollText'> ΕΛΑΤΕ ΝΑ ΣΥΝΕΡΓΑΣΤΟΥΜΕ:</h2>
-  );
-}
-function App() {
-
-  return (
-    <div>
-      <Name/>
-      <CenterText/> 
-      <ScrollText/>
-      </div>
-
-
-
-  );
-}
-
-export default App
+export default App;

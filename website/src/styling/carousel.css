@@ -1,0 +1,33 @@
+.carousel-container {
+    width: 95%;           
+    max-width: 1200px;    
+    margin: 50px auto; 
+    padding-bottom: 60px; 
+  }
+  
+  .slide-content {
+    height: 600px;       
+    background: #1e293b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;    
+  }
+  
+  .carousel-img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain; 
+    background-color: #000; 
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: aqua !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: aqua !important;
+  }
+  
