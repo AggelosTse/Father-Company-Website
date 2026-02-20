@@ -1,23 +1,16 @@
 .flexOne{
-    display:flex;
-
+    display: flex;
+    background-color: rgb(255, 255, 255);
 }
 .companyName { 
 
-    justify-content: left;
-    align-items: center;
+    align-items: flex-start;
   
     margin-left: 100px;  
-    margin-top: 20px;   
+    margin-top: 10px;
+    margin-bottom: 10px; 
   
-    background: linear-gradient(to right, aqua 54%, #2563eb 46%);
-    
-    -webkit-background-clip: text;
-    background-clip: text;
-    
-    color: transparent;
-    
-   
-    font-weight: 900;
+/* linear-gradient(to right, aqua 54%, #2563eb 46%);*/
+
     display: inline-block;
 }

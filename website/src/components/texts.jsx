@@ -2,7 +2,11 @@ import '../styling/top.css';
 import '../styling/middle.css';
 
 export function Name(){
-    return <h1 className='companyName'>TSELIOSGAMES</h1>;
+    return (
+    <div className='flexOne'>
+    <h1 className='companyName'>TSELIOSGAMES</h1>
+    </div>
+    );
   }
   
 export function CenterText(){
@@ -14,6 +18,4 @@ export function CenterText(){
       </div>
     );
   }
-  
-
 
