@@ -4,7 +4,8 @@ import '../styling/middle.css';
 export function Name(){
     return (
     <div className='flexOne'>
-    <h1 className='companyName'>TSELIOSGAMES</h1>
+      <h1 className='companyName'>TSELIOSGAMES</h1>
+      <button className='language'>EN/GR </button> 
     </div>
     );
   }
@@ -19,3 +20,10 @@ export function CenterText(){
     );
   }
 
+export function Language(){
+  return(
+    <div className='flexOne'>
+      <button className='language'>EN/GR </button> 
+    </div> 
+    );
+  }

@@ -1,8 +1,8 @@
 .flexOne{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 238, 238);
 }
-.companyName { 
+.companyName {
 
     align-items: flex-start;
   
@@ -10,7 +10,24 @@
     margin-top: 10px;
     margin-bottom: 10px; 
   
-/* linear-gradient(to right, aqua 54%, #2563eb 46%);*/
-
+    background: linear-gradient(to right, aqua 54%, #2563eb 46%);
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    color: transparent;
+    
     display: inline-block;
+}
+.language{
+
+    padding: 10px 20px;
+    margin-left: 900px;
+    text-align: flex-end;
+
+    font-size: 13px;
+    background-color: #abbde4;
+    border-radius: 13px;
+    
+
 }
