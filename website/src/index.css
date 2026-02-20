@@ -21,6 +21,45 @@
 
 .centerText {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center;  
+  
+
+  height: 50vh;          
+  width: 100vw;       
+
+  font-size: 40px;
+  
+
+  transform: translateY(-20px); 
+}
+
+.centerSubText {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  
+
+  height: 4vh;          
+  width: 100vw;       
+
+  font-size: 20px;
+  
+  transform: translateY(-270px); 
+  
+}
+
+.scrollText {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  
+
+  height: 50vh;          
+  width: 100vw;       
+
+  font-size: 40px;
+  
+
+  transform: translateY(-20px); 
 }

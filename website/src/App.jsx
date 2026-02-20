@@ -9,7 +9,16 @@ function Name(){
 
 function CenterText(){
   return(
-    <h2 className='centerText'> ΣΤΟΧΟΣ ΜΑΣ Η ΨΥΧΑΓΩΓΙΑ ΣΑΣ</h2>
+    <div>
+    <h2 className='centerText'> ΣΤΟΧΟΣ ΜΑΣ Η ΨΥΧΑΓΩΓΙΑ ΣΑΣ</h2>;
+    <h1 className='centerSubText'>Με πολλα χρονια εμπειριας στον χωρο.</h1>;
+    </div>
+  );
+}
+
+function ScrollText(){
+  return(
+    <h2 className='scrollText'> ΕΛΑΤΕ ΝΑ ΣΥΝΕΡΓΑΣΤΟΥΜΕ:</h2>
   );
 }
 function App() {
@@ -18,7 +27,11 @@ function App() {
     <div>
       <Name/>
       <CenterText/> 
+      <ScrollText/>
       </div>
+
+
+
   );
 }
 
