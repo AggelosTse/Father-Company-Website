@@ -1,4 +1,4 @@
-import {Name, CenterText, ScrollText} from './components/texts.jsx';
+import {Name, CenterText} from './components/texts.jsx';
 import ProjectCarousel from './components/carousel.jsx';
 
 
@@ -7,7 +7,6 @@ function App() {
     <div className="main-layout">
       <Name/> 
       <CenterText/> 
-      <ScrollText/>
       <ProjectCarousel/>
     </div>
   );

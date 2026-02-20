@@ -1,4 +1,4 @@
-import '../styling/texts.css';
+import '../styling/top.css';
 import '../styling/middle.css';
 
 export function Name(){
@@ -7,14 +7,13 @@ export function Name(){
   
 export function CenterText(){
     return(
-      <div className="center-wrapper">
+      <div className="wrapper">
         <b className='centerText'>ΣΤΟΧΟΣ ΜΑΣ Η ΨΥΧΑΓΩΓΙΑ ΣΑΣ</b>
         <b className='centerSubText'>Με πολλά χρόνια εμπειρίας στον χώρο.</b>
+        <b className='scrollText'>ΕΛΑΤΕ ΝΑ ΣΥΝΕΡΓΑΣΤΟΥΜΕ:</b>;
       </div>
     );
   }
   
-export function ScrollText(){
-    return <b className='scrollText'>ΕΛΑΤΕ ΝΑ ΣΥΝΕΡΓΑΣΤΟΥΜΕ:</b>;
-  }
+
 
