@@ -1,4 +1,4 @@
-import '../styling/bottom.css';
+import '../../styling/bottom.css';
 import { useNavigate } from 'react-router-dom';
 
 export function EmailButton(){

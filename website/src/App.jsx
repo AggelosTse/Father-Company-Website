@@ -1,21 +1,24 @@
-import { Name, CenterText } from "./components/texts.jsx";
-import ProjectCarousel from "./components/carousel.jsx";
-import { EmailButton } from "./components/emailPageNavig.jsx";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import BackButton from "../../pages/backbutton.jsx";
+//main page
+import { Name, CenterText } from "./components/mainPage/texts.jsx";
+import ProjectCarousel from "./components/mainPage/carousel.jsx";
+import { EmailButton } from "./components/mainPage/emailPageNavig.jsx";
 
-import EmailForm from "../../pages/emailform.jsx";
+//email form page
+import BackButton from "./components/emailPage/backbutton.jsx";
+import EmailForm from "./components/emailPage/emailform.jsx";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route
+        //main page
           path="/"
           element={
-            /*Main Page*/
+           
             <div>
               <Name />
               <CenterText />
@@ -26,6 +29,7 @@ function App() {
         />
 
         <Route
+        //email page
           path="/contact"
           element={
             <div>

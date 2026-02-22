@@ -1,6 +1,6 @@
-import '../styling/top.css';
-import '../styling/middle.css';
-import earth from '../assets/images/earthgrid.png';
+import '../../styling/top.css';
+import '../../styling/middle.css';
+import earth from '../../assets/images/earthgrid.png';
 
 export function Name(){
     return (

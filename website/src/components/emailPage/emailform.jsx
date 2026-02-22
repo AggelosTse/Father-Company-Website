@@ -5,10 +5,9 @@ export default function EmailForm(){
         <input type="email" id="email" name="email" required />
 
         <label htmlFor="mess">Message: </label>
-                {/* Textarea is better for long messages */}
                 <textarea id="mess" name="mess" rows="4"></textarea>
 
-                <input type="submit" value="BBB" />
+                <input type="submit" value="Submit" />
       </div>
       
     );

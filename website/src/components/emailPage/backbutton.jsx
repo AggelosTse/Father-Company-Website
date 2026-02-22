@@ -10,7 +10,7 @@ export default function BackButton(){
     }
     return(
         <button onClick={mainPageNavigate}>
-            yo bro
+            Back
         </button>
     );
 }
