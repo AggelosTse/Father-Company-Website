@@ -1,6 +1,9 @@
 .flexOne{
     display: flex;
     background-color: rgb(240, 238, 238);
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 .companyName {
 
@@ -21,13 +24,25 @@
 }
 .language{
 
-    padding: 10px 20px;
-    margin-left: 900px;
-    text-align: flex-end;
+    margin-right: 30px;  
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-    font-size: 13px;
-    background-color: #abbde4;
-    border-radius: 13px;
+    padding: 0px 2px;
+
+    font-size: 12px;
+    background-color: #d2d8fa;
+    border-radius: 12px;
+    border: 2px outset  rgb(155, 172, 248);
     
+    transition-duration: 0.4s;
+}
+.buttonText{
+    
+    color:rgb(95, 112, 185);
+}
 
+button.language:hover{
+
+    background-color: rgb(255, 255, 255);
 }

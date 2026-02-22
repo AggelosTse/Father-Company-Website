@@ -1,11 +1,14 @@
 import '../styling/top.css';
 import '../styling/middle.css';
+import earth from '../assets/images/earthgrid.png';
 
 export function Name(){
     return (
     <div className='flexOne'>
       <h1 className='companyName'>TSELIOSGAMES</h1>
-      <button className='language'>EN/GR </button> 
+      <button className='language'>
+        <b className='buttonText'> EN/GR </b>
+      </button> 
     </div>
     );
   }
@@ -27,3 +30,5 @@ export function Language(){
     </div> 
     );
   }
+
+//<img src='earth' alt="EN/GR" width="20" height="20"></img>
