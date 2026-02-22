@@ -55,3 +55,39 @@
 .swiper-pagination-bullet-active {
   background: aqua !important;
 }
+.emailFields {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  gap: 10px;
+  padding: 20px;
+  
+  margin-top: 270px;
+}
+
+.emailFields input[type="email"], 
+.emailFields textarea {
+  width: 100%;
+  max-width: 400px; 
+  padding: 12px;   
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.emailFields input[type="submit"] {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.emailFields input[type="submit"]:hover {
+  transform: scale(1.05); 
+}
