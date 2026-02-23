@@ -8,7 +8,7 @@ export default function EmailForm() {
   async function sendDataToServer(e) {
     e.preventDefault();
     const userInfo = {
-      userEMail: email,
+      userEmail: email,
       userMessage: message,
     };
 
