@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { sendEmail } from '../servives/emailsender.js';
+import { sendEmail } from '../services/emailsender.js';
 const app = express();
 
 app.use(express.json());
